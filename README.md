@@ -62,7 +62,7 @@ In the terminal, run `npm install learn-browser`. You should see `npm` take
 action start installing.  In `package.json`, when `npm` is finished, a new key
 will appear, `dependencies`, with one dependency inside:
 
-```
+```json
 "dependencies": {
   "learn-browser": "^0.1.17"
 }
@@ -77,7 +77,7 @@ The `learn-browser` package relies on a test script that will trigger a new
 browser window with the tests inside.  Replace the `scripts` part of your
 `package.json` file with the following:
 
-```
+```json
 "scripts": {
   "test": "node_modules/browser-sync/bin/browser-sync.js start --config node_modules/learn-browser/bs-config.js"
 },
