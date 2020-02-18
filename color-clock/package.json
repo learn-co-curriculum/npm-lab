@@ -4,11 +4,8 @@
   "description": "An example project using package.json",
   "main": "index.js",
   "scripts": {
-    "test": "mocha -R mocha-multi --reporter-options spec=-,json=.results.json"
+    "test": "echo \"Hello World!\""
   },
   "author": "flatironschool",
-  "license": "ISC",
-  "dependencies": {
-    "moment": "^2.22.2"
-  }
+  "license": "ISC"
 }
