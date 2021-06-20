@@ -138,13 +138,13 @@ followed by the package name. In our case, that would be:
 npm install moment
 ```
 
-This command will add the package to the list of dependencies in `package.json`. When `npm install` is run, all dependencies are installed. If you were to publish this repository on GitHub, other users would now be able to clone down the repo and install whatever is listed in `pakage.json` to get the program working.
+This command will add the package to the list of dependencies in `package.json`. When `npm install` is run, all dependencies are installed. If you were to publish this repository on GitHub, other users would now be able to clone down the repo and install whatever is listed in `package.json` to get the program working.
 
 If `package.json` file has the correct package, and the node module has been
 installed, open `index.html` and you should see a colorful clock appear!
 
 To submit your work in this lesson, you'll have to run `cd ..` to get back to
-the main lesson directory before running `learn submit`.
+the main lesson directory before running `learn test`.
 
 ## Conclusion
 
