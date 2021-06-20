@@ -34,7 +34,7 @@ functionality in new code we write.
 
 ## Getting Started
 
-Before we can create a `package.json` file, we'll need an project and a project
+Before we can create a `package.json` file, we'll need a project and a project
 folder to contain all the files. For this code-along, we'll be building out a
 clock application that changes color every second.
 
