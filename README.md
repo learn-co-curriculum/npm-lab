@@ -83,7 +83,7 @@ way for now. Follow the prompts until the end and a fully constructed
 
 ### Add a Script
 
-In the process of creating the `package.json` file, you wre prompted to
+In the process of creating the `package.json` file, you were prompted to
 write a test script. Let's add a working script in to see how this works.
 
 Open the newly created `package.json` file and look for a section
